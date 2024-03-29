@@ -3,10 +3,45 @@
     padding: 0px;
     margin: 0px;
 }
-.icon-close{
-    display: none;
-}
+.link {
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .arrow-right,
+  .arrow-down {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    transition: opacity 6s ease;
 
+  }
+  
+  .arrow-right {
+    margin-left: 5px;
+  }
+  
+  .arrow-down {
+    display: none;
+  }
+  
+  .link:hover .arrow-right {
+    display: none;
+    padding-top: 2px;
+    padding-right: 2px;
+    opacity: 0;
+  }
+  
+  .link:hover .arrow-down {
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 2px;
+    opacity: 1;
+  }
+  
 /* .chooseDemoWrapper{
     display: flex;
     justify-content: space-between;
@@ -101,6 +136,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.navbar-padding{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
 .dropdown-header{
     /* color: blue; */
     font-size: 0.7rem;
@@ -135,6 +174,10 @@
     position: relative;
     padding-top: 8rem;
     padding-bottom: 8rem;
+}
+input{
+    background-color: rgb(229, 240, 249);
+    
 }
 .header-container {
     position: relative;
@@ -225,7 +268,7 @@ svg {
 }
 .second-heading{
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 1rem;
  
 }
 .second-para{
