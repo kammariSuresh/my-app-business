@@ -14,7 +14,7 @@
 <main>
     <!-- <div class="menu-icon">
         <div class="chooseDemoWrapper">
-          <div class="closer" onclick="functionDisplay()" >
+          <div class="closer" >
             <i class="icon-menu bi bi-gear-fill  fa-cog fa-w-16 fa-spin"></i>
           </div>
           <div class="list">
@@ -87,26 +87,31 @@
         </div>
     </div> -->
     
-    
 <section class="container-fluid banner-section gx-0">
-    <nav class=" navbar navbar-expand-lg bg-white navbar-light pt-4 pb-4  px-5">
-        <div class="container">
+    <nav class=" navbar navbar-padding navbar-expand-lg bg-white navbar-light  ">
+        <div class="container px-5">
                     <button class="main-heading-element navbar-brand" href="#">SB UI Kit Pro</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class=" collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-lg-row justify-content-lg-between align-items-lg-center">
-                            <li class="nav-item p-lg-3">
+                            <li class="nav-item pb-2 pt-3 p-lg-3">
                                 <a class="nav-link" aria-current="page" href="#">Home</a>
                             </li>
             
-                            <li class="dropdown p-lg-3" >
-                                <a onclick="functionDisplay()" class="closer d-flex" class="nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="dropdown pb-2 p-lg-3" >
+                                <a class="link d-flex nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Landings
                                 <div>
-                                    <i id="iconMenu" class="icon-menu bi bi-chevron-right"></i>
-                                    <i id="iconClose" class="icon-close bi bi-chevron-down"></i>
+                                    <span class="arrow-right">
+                                        <i id="iconMenu" class="icon-menu bi bi-chevron-right"></i>
+                                                           
+                                    </span>
+                                    <span class="arrow-down">
+                                        <i id="iconClose" class="icon-close bi bi-chevron-down"></i>
+                            
+                                    </span>
                                 </div>
                                 </a>
                             <!-- <ul class="dropdown-menu drop-item shadow mb-3 bg-body rounded">
@@ -187,12 +192,18 @@
                                 </div>
                             </li>
                             
-                            <li class="dropdown p-lg-3" >
-                                <a onclick="functionPagesDisplay()"  class="closerPages d-flex nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="dropdown pb-2 p-lg-3" >
+                                <a  class="link d-flex nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Pages
                                 <div>
-                                    <i id="iconPagesMenu" class="icon-menu bi bi-chevron-right"></i>
-                                    <i id="iconPagesClose" class="icon-close bi bi-chevron-down"></i>
+                                    <span class="arrow-right">
+                                        <i id="iconMenu" class="icon-menu bi bi-chevron-right"></i>
+                                                           
+                                    </span>
+                                    <span class="arrow-down">
+                                        <i id="iconClose" class="icon-close bi bi-chevron-down"></i>
+                            
+                                    </span>
                                 </div>
                             </a>
                         <ul class="dropdown-menu drop-item shadow rounded mb-3 bg-body  dropdown-menu-end  me-lg-n25 me-xl-n15" aria-expanded="false" data-bs-toggle="dropdown"  data-bs-popper="static">
@@ -241,13 +252,18 @@
 
                         </ul>
                             </li>
-                            <li class="dropdown p-lg-3" >
-                                <a onclick="functionDocsDisplay()" id="navbarDropdownDocs" type="button"  class="closerDoes nav-link d-flex " data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="dropdown pb-3 p-lg-3" >
+                                <a  id="navbarDropdownDocs" type="button"  class="link nav-link d-flex " data-bs-toggle="dropdown" aria-expanded="false">
                                 Documentation
                                 <div>
-                                    <i id="iconDocsMenu" class="icon-menu bi bi-chevron-right"></i>
-                                    <i id="iconDocsClose" class="icon-close bi bi-chevron-down"></i>
-                                </div>
+                                    <span class="arrow-right">
+                                        <i id="iconMenu" class="icon-menu bi bi-chevron-right"></i>
+                                                           
+                                    </span>
+                                    <span class="arrow-down">
+                                        <i id="iconClose" class="icon-close bi bi-chevron-down"></i>
+                            
+                                    </span></div>
                                 </a>
                                 <div class="dropdown-menu drop-item  shadow mb-3 bg-body rounded "  aria-labelledby="navbarDropdownDocs"  >
                                     <a  href="#" class="dropdown-item py-3 d-flex flex-row">
@@ -283,7 +299,7 @@
                             </li>
                         </ul>
                         
-                    <button class=" btn button-teal ms-lg-4" type="submit">
+                    <button class=" btn button-teal  ms-lg-4" type="submit">
                         Buy Now<span class="p-2"><i class="bi bi-arrow-right"></i></span>
                     </button>
 
@@ -415,9 +431,9 @@
     </div>
     
     <section  class="pt-5 pb-10 bg-white">
-        <div  class="container px-4">
+        <div  class="container px-5">
         <div  class="card mt-n15 mb-5 z-1">
-            <div  class="card-body p-4">
+            <div  class="card-body p-5">
                         <div  class="row gx-5 align-items-center">
                             <div  class="col-lg-6">
                                 <h4 class="card-heading">Get the latest news</h4>
@@ -425,7 +441,7 @@
                             </div>
                             <div  class="col-lg-6">
                                 <div  class="input-group mb-2">
-                                    <input  type="text" placeholder="youremail@example.com" aria-label="Recipient's username" aria-describedby="button-addon2" class="form-control form-control-solid">
+                                    <input  type="text" placeholder="youremail@example.com" aria-label="Recipient's username" aria-describedby="button-addon2" class="form-control p-2 form-control-solid">
                                     <div  class="input-group-append">
                                         <button  id="button-addon2" type="button" class="btn btn-primary">Sign up</button>
                                     </div>
@@ -438,7 +454,7 @@
         <div  class="row gx-5 justify-content-center">
                     <div  class="col-lg-6">
                         <div  class="mb-5 text-center">
-                            <div  class="text-xs second-heading text-primary mb-2">New Businesses</div>
+                            <div  class=" second-heading text-primary mb-2">New Businesses</div>
                             <p  class="second-para mb-0">Here are some of the most popular new businesses in your area.</p>
                         </div>
                     </div>
